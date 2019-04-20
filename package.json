@@ -1,0 +1,32 @@
+{
+  "name": "khohang",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "DEBUG=khohang:* nodemon ./bin/www"
+  },
+  "dependencies": {
+    "asyn": "0.0.1",
+    "axios": "^0.18.0",
+    "body-parse": "^0.1.0",
+    "bulma": "^0.7.4",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "express-session": "^1.16.1",
+    "helmet": "^3.16.0",
+    "http-errors": "~1.6.2",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.5.2",
+    "morgan": "~1.9.0",
+    "nodemailer": "^6.1.1",
+    "nodemon": "^1.18.11",
+    "officegen": "^0.6.0",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "pug": "2.0.0-beta11",
+    "randomstring": "^1.1.5"
+  }
+}
